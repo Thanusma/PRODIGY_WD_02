@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Vina+Sans&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family:'poppins',sans-serif;
+}
+body{
+    background-image: url("color.jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    color:antiquewhite;
+}
+.watch{
+    text-align: center;
+    background-color: rgb(224, 217, 222);
+    width: 400px;
+    display: block;
+    margin: auto;
+    margin-top:15rem;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    
+    
+}
+.time{
+    font-size: 5rem;
+    margin-bottom: 10px;
+    color: black;
+}
+.controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.controls button{
+    cursor: pointer;
+    background-color: black;
+    color: rgb(255, 209, 149);
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    transition: 0.4s;
+    border: 3px solid antiquewhite;
+
+}
+button:hover{
+    background-color:antiquewhite ;
+    color: black;
+    border: 3px solid black;
+}
+button:active{
+    background-color: antiquewhite;
+    color: black;
+}
+
